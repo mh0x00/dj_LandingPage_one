@@ -4,8 +4,8 @@ from django.shortcuts import render
 
 
 def blog_view(request):
-    return render(request, 'blog/blog.html')
+    return render(request, 'blogs/blog.html')
 
 
 def blog_details_view(request):
-    return render(request, 'blog/blog_details.html')
+    return render(request, 'blogs/blog-details.html')
